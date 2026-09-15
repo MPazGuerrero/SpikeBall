@@ -1,18 +1,16 @@
 # **SpikeBall Event Dataset: Event-Based Ball Trajectories**
 
-We present a neuromorphic dataset: SpikeBall+, based on  the Dynamic Vision Sensor, the dataset provides a collection of trajectory data elucidating the motion characteristics of a foosball ball. Leveraging the groundwork introduced in [1], this augmented database not only encompasses a wider range of ball trajectories but also implements enhancements to the criteria governing ball capture.
-
+We present a neuromorphic dataset: SpikeBall, based on  the Dynamic Vision Sensor, the dataset provides a collection of trajectory data elucidating the motion characteristics of a foosball ball. 
 ---
 
 ## **Dataset Overview**
 
-The dataset consists of ball trajectory data categorized into three types of plays:
-1. **Shots on Goal**:
-   - Direct shots aimed at either the left or right goal.
-2. **Short Plays**:
-   - Simple plays with one or two rebounds of the ball.
-3. **Complex Plays**:
-   - Longer sequences with multiple rebounds and intricate ball movements.
+The dataset consists of two folders:
+1. **Trajectories**:
+   - Ball trajectories with annotated ball-center positions, including direct hits, simple trajectories, and trajectories with up to two bounces.
+2. **Splits**:
+   - It includes predefined training, validation, and test splits in CSV and TXT formats.
+
 
 ---
 
@@ -37,15 +35,12 @@ The dataset is provided in `.h5` format and organized into folders for each play
 ```plaintext
 SpikeBallPlus/
 │
-├── DirectShots/
+├── Trajectories/
 │   ├── SpikeBall+02.h5
 │   ├── SpikeBall+09.h5
 │   └── …
-├── ShortPlays/
+├── Splits/
 │   ├── SpikeBall+01.h5
-│   └── …
-├── ComplexPlays/
-│   ├── SpikeBall+00.h5
 │   └── …
 ├── examples/
 │   └── trajectory_visualization.m
@@ -61,8 +56,8 @@ The dataset is provided in `.h5` format and organized into folders for each play
 Clone this repository to access the dataset:
 
 ```bash
-git clone https://github.com/MPazGuerrero/SpikeBallPlus.git
-cd SpikeBallPlus/
+git clone https://github.com/MPazGuerrero/SpikeBall.git
+cd SpikeBall/
 ```
 
 ---
