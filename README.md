@@ -40,7 +40,8 @@ SpikeBallPlus/
 │   ├── SpikeBall+09.h5
 │   └── …
 ├── Splits/
-│   ├── SpikeBall+01.h5
+│   ├── train.txt
+│   ├── train.csv
 │   └── …
 └── README.md
 ```
