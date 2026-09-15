@@ -42,8 +42,6 @@ SpikeBallPlus/
 ├── Splits/
 │   ├── SpikeBall+01.h5
 │   └── …
-├── examples/
-│   └── trajectory_visualization.m
 └── README.md
 ```
 The dataset is provided in `.h5` format and organized into folders for each play type. Due to size constraints, some files are compressed in `.zip` format and need to be extracted before use
