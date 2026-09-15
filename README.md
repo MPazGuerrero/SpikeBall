@@ -1,7 +1,7 @@
 # **SpikeBall Event Dataset: Event-Based Ball Trajectories**
 
 We present a neuromorphic dataset: SpikeBall, based on  the Dynamic Vision Sensor, the dataset provides a collection of trajectory data elucidating the motion characteristics of a foosball ball. 
----
+
 
 ## **Dataset Overview**
 
