@@ -36,8 +36,8 @@ The dataset is provided in `.h5` format and organized into folders for each play
 SpikeBallPlus/
 │
 ├── Trajectories/
-│   ├── SpikeBall+02.h5
-│   ├── SpikeBall+09.h5
+│   ├── SpikeBall02.h5
+│   ├── SpikeBall09.h5
 │   └── …
 ├── Splits/
 │   ├── train.txt
@@ -65,4 +65,4 @@ cd SpikeBall/
 
 For more details, refer to the following article:
 
-[1] Guerrero-Lebrero,M.P., Quintana,F. M., Guerrero,E. (2023). *SpikeBALL: Neuromorphic Dataset for Object Tracking.* Advances in Computational Intelligence - 17th International Work-Conference on Artificial Neural Networks, {IWANN} 2023, Ponta Delgada, Portugal, June 19-21, 2023, Proceedings, Part {II}, 14135, 641-652. Springer. [https://doi.org/10.1234/jnc.2023.12345](https://doi.org/10.1007/978-3-031-43078-7\_52)
+[1] Guerrero-Lebrero,M.P., Quintana,F. M., Guerrero,E. (2023). *SpikeBALL: Neuromorphic Dataset for Object Tracking.* Advances in Computational Intelligence - 17th International Work-Conference on Artificial Neural Networks, {IWANN} 2023, Ponta Delgada, Portugal, June 19-21, 2023, Proceedings, Part {II}, 14135, 641-652. Springer. ([https://doi.org/10.1007/978-3-031-43078-7\_52](https://dl.acm.org/doi/10.1007/978-3-031-43078-7_52))
